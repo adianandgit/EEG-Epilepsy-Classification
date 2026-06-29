@@ -2,7 +2,6 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![Performance](https://img.shields.io/badge/AUROC-0.9494-success.svg)](#-final-performance-metrics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Visual EEG classification is subjective, error-prone, and time-consuming. This project introduces a robust, transfer-learning and sequence-based transformer framework (EEGformer) to automate the detection and localization of epileptiform discharges from low-channel EEG signals.**
