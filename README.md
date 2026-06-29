@@ -62,7 +62,7 @@ We extracted the gradients of the target class score with respect to the input E
 ## 📂 Repository Structure
 
 The codebase is modularized to separate data preprocessing, transformer models, and explainable evaluation scripts.
-
+```
 .
 ├── UGP/                        # Core package (Data, Models, Trainers)
 │   ├── config_files/           # Hyperparameter configs (Epilepsy, HAR, sleepEDF)
@@ -82,7 +82,7 @@ The codebase is modularized to separate data preprocessing, transformer models, 
 ├── XNE-Tsme.py                 # t-SNE cluster visualization
 ├── main.py                     # Main execution file
 └── README.md
-
+```
 
 It looks like the formatting got lost when you copied it! Here is the exact Markdown syntax for that final section.
 
