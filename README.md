@@ -1,23 +1,3 @@
-# 🧠 Automated Epileptic Event Classification from Low-Channel EEG
-
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-> **Visual EEG classification is subjective, error-prone, and time-consuming. This project introduces a robust, transfer-learning and sequence-based transformer framework (EEGformer) to automate the detection and localization of epileptiform discharges from low-channel EEG signals.**
-
-## 🎯 Project Overview
-
-Epilepsy affects approximately 50 million individuals globally. The WHO estimates that nearly 70% of patients could achieve freedom from seizures with appropriate diagnosis and treatment. However, significant diagnostic gaps exist—real-time, all-day monitoring by medical experts is practically unfeasible, and subjective visual analysis often leads to misdiagnosis. 
-
-**AI-EEG in Epilepsy** offers a highly scalable, high-fidelity solution for:
-* Automated Seizure Detection
-* High-Fidelity Localization of Epileptogenic Foci
-* Long-Term Remote Monitoring & Warning
-
-This repository houses the complete codebase, model architectures, and Explainable AI (XAI) pipelines for classifying normal versus abnormal (epileptic) brain waves. By engineering solutions for severe dataset imbalances and evolving from baseline 1D-CNNs to advanced **EEGformer** architectures, this project achieves highly sensitive, clinically viable detection metrics.
-
----
 
 # 🧠 Automated Epileptic Event Classification from Low-Channel EEG
 
