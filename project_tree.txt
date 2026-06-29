@@ -1,0 +1,199 @@
+[4.0K]  .
+├── [1.1M]  best_f1_model.pt
+├── [1.1M]  best_minimal_model.pt
+├── [1.1M]  best_trusted_model.pt
+├── [4.0K]  dataset_storage
+│   ├── [4.0K]  MyNewEEG_SSL
+│   │   ├── [5.7M]  test_labeled.pt
+│   │   ├── [ 17M]  train_labeled.pt
+│   │   ├── [ 29M]  unlabeled.pt
+│   │   └── [5.7M]  val_labeled.pt
+│   └── [4.0K]  MyNewEEG_Trusted
+│       ├── [5.7M]  test.pt
+│       ├── [ 17M]  train.pt
+│       └── [5.7M]  val.pt
+├── [5.8K]  ensemblemodel.py
+├── [1.1M]  final_f1_model.pt
+├── [4.0K]  final_metric
+│   ├── [771K]  best_head_smote.pt
+│   ├── [ 37K]  confidence_plot.png
+│   ├── [ 23K]  confusion_matrix_ensemble_3model.png
+│   ├── [ 24K]  confusion_matrix_smote.png
+│   ├── [ 38K]  mentor_confidence_plot_contiguous.png
+│   ├── [ 39K]  mentor_confidence_plot_ensemble_3model.png
+│   ├── [ 35K]  roc_curve_ensemble_3model.png
+│   ├── [ 30K]  roc_curve.png
+│   ├── [ 18K]  train_loss.png
+│   └── [ 34K]  val_f1.png
+├── [4.0K]  final_metric_ensemble
+│   ├── [771K]  best_head_smote.pt
+│   ├── [ 37K]  confidence_plot_ensemble_3model_weighted.png
+│   ├── [ 36K]  confidence_plot_ensemble_optimal.png
+│   ├── [ 23K]  confusion_matrix_ensemble_3model.png
+│   ├── [ 24K]  confusion_matrix_ensemble_3model_weighted.png
+│   ├── [ 23K]  confusion_matrix_ensemble_optimal.png
+│   ├── [ 39K]  mentor_confidence_plot_ensemble_3model.png
+│   ├── [ 35K]  roc_curve_ensemble_3model.png
+│   ├── [ 33K]  roc_curve_ensemble_3model_weighted.png
+│   └── [ 32K]  roc_curve_ensemble_optimal.png
+├── [1.1M]  final_trusted_model.pt
+├── [6.4K]  learnensemble.py
+├── [7.5K]  minimal_baseline_train.py
+├── [2.4K]  new_model.py
+├── [4.0K]  plots_focal_sampler
+│   ├── [ 35K]  confidence_plot_normal.png
+│   ├── [ 21K]  confusion_matrix.png
+│   ├── [ 42K]  mentor_confidence_plot_contiguous_NORMAL.png
+│   ├── [ 30K]  roc_curve.png
+│   ├── [ 28K]  train_loss.png
+│   ├── [ 39K]  val_auc.png
+│   └── [ 37K]  val_f1.png
+├── [4.0K]  plots_minimal
+│   ├── [ 35K]  auc.png
+│   ├── [ 23K]  confusion_matrix.png
+│   ├── [ 26K]  f1.png
+│   ├── [ 33K]  loss.png
+│   ├── [ 42K]  mentor_confidence_plot_contiguous_NORMAL.png
+│   └── [ 31K]  roc_curve.png
+├── [2.3K]  plot specificwaveforms.py
+├── [4.0K]  plots_trusted
+│   ├── [ 34K]  confidence_plot_normal.png
+│   ├── [ 21K]  confusion_matrix.png
+│   ├── [ 42K]  mentor_confidence_plot_contiguous_NORMAL.png
+│   ├── [ 30K]  roc_curve.png
+│   ├── [ 32K]  train_loss.png
+│   ├── [ 45K]  val_auc.png
+│   └── [ 53K]  val_f1.png
+├── [   0]  project_tree.txt
+├── [9.1K]  randomSampler+CEloss.py
+├── [9.8K]  randomSampler+Focal_loss.py
+├── [4.0K]  sample_waveform_plots
+│   ├── [ 84K]  sample_12_waveform.png
+│   ├── [ 85K]  sample_26_waveform.png
+│   └── [ 95K]  sample_32_waveform.png
+├── [7.5K]  SmoteENN.py
+├── [4.0K]  UGP
+│   ├── [ 13M]  argparse
+│   ├── [4.0K]  config_files
+│   │   ├── [1.0K]  Epilepsy_Configs.py
+│   │   ├── [1.0K]  HAR_Configs.py
+│   │   ├── [   0]  __init__.py
+│   │   ├── [1.1K]  pFD_Configs.py
+│   │   └── [1.0K]  sleepEDF_Configs.py
+│   ├── [4.0K]  data
+│   │   └── [4.0K]  Epilepsy
+│   │       ├── [3.1M]  test.pt
+│   │       ├── [ 10M]  train.pt
+│   │       └── [2.5M]  val.pt
+│   ├── [4.0K]  dataloader
+│   │   ├── [1.5K]  augmentations.py
+│   │   ├── [2.7K]  data_generator.py
+│   │   └── [   0]  __init__.py
+│   ├── [4.0K]  data_preprocessing
+│   │   ├── [4.0K]  epilepsy
+│   │   │   ├── [4.0K]  data_files
+│   │   │   │   └── [7.3M]  data.csv
+│   │   │   └── [1.3K]  preprocess.py
+│   │   ├── [4.0K]  fault_diagnosis
+│   │   │   ├── [4.0K]  Data_loading_segmentation.m
+│   │   │   └── [ 15K]  Data_preprocessing.ipynb
+│   │   ├── [   0]  __init__.py
+│   │   ├── [4.0K]  sleep-edf
+│   │   │   ├── [6.3K]  dhedfreader.py
+│   │   │   ├── [2.0K]  generate_train_val_test.py
+│   │   │   └── [9.0K]  preprocess_sleep_edf.py
+│   │   └── [4.0K]  uci_har
+│   │       └── [3.0K]  preprocess_har.py
+│   ├── [4.0K]  experiments_logs
+│   │   └── [4.0K]  Exp1
+│   │       └── [4.0K]  run1
+│   │           └── [4.0K]  supervised_seed_0
+│   │               ├── [4.0K]  labels
+│   │               │   ├── [ 18K]  predicted_labels.npy
+│   │               │   └── [ 18K]  true_labels.npy
+│   │               ├── [ 146]  logs_23_08_2025_18_16_37.log
+│   │               ├── [ 146]  logs_23_08_2025_18_29_43.log
+│   │               ├── [ 162]  logs_23_08_2025_18_30_31.log
+│   │               ├── [5.2K]  logs_23_08_2025_18_34_15.log
+│   │               ├── [5.2K]  logs_25_08_2025_13_14_32.log
+│   │               ├── [ 146]  logs_28_10_2025_19_02_02.log
+│   │               ├── [5.2K]  logs_28_10_2025_19_03_48.log
+│   │               ├── [4.5K]  logs_28_10_2025_19_10_19.log
+│   │               ├── [ 184]  logs_30_10_2025_11_49_41.log
+│   │               ├── [6.8K]  logs_30_10_2025_11_50_35.log
+│   │               ├── [ 184]  logs_30_10_2025_12_10_03.log
+│   │               ├── [4.0K]  plots
+│   │               │   ├── [178K]  accuracy_curve.png
+│   │               │   ├── [  64]  classification_metrics.txt
+│   │               │   ├── [ 70K]  confusion_matrix.png
+│   │               │   └── [155K]  loss_curve.png
+│   │               ├── [4.0K]  results
+│   │               │   ├── [152K]  accuracy_curve.png
+│   │               │   ├── [128K]  auroc_curve.png
+│   │               │   ├── [121K]  f1_score_curve.png
+│   │               │   ├── [131K]  loss_curve.png
+│   │               │   ├── [124K]  precision_curve.png
+│   │               │   └── [124K]  recall_curve.png
+│   │               ├── [ 16K]  run1_supervised_seed_0_classification_report.ods
+│   │               ├── [5.2K]  run1_supervised_seed_0_classification_report.xlsx
+│   │               ├── [1.7K]  run1_supervised_seed_0_confusion_matrix.torch
+│   │               └── [4.0K]  saved_models
+│   │                   ├── [1.8M]  best_model_full.pt
+│   │                   └── [1.8M]  ckp_last.pt
+│   ├── [ 18K]  final.ipynb
+│   ├── [3.7K]  helpers.py
+│   ├── [1.0K]  LICENSE.txt
+│   ├── [5.9K]  main.py
+│   ├── [4.0K]  misc
+│   │   └── [ 73K]  TS_TCC.png
+│   ├── [4.0K]  models
+│   │   ├── [3.3K]  attention.py
+│   │   ├── [   0]  __init__.py
+│   │   ├── [2.5K]  loss.py
+│   │   ├── [1.4K]  model.py
+│   │   └── [2.2K]  TC.py
+│   ├── [5.5K]  output.txt
+│   ├── [1.9K]  Prjectstr
+│   ├── [7.9K]  project_helpers_plotting.py
+│   ├── [7.2K]  README.md
+│   ├── [ 655]  structure.py
+│   ├── [5.9K]  tempCodeRunnerFile.py
+│   └── [4.0K]  trainer
+│       ├── [   0]  __init__.py
+│       └── [5.3K]  trainer.py
+├── [4.0K]  xai_plots
+│   ├── [4.0K]  saliency_false_negatives
+│   │   ├── [506K]  sample_2.png
+│   │   ├── [408K]  sample_49.png
+│   │   ├── [480K]  sample_57.png
+│   │   └── [480K]  sample_6.png
+│   ├── [4.0K]  saliency_false_positives
+│   │   ├── [428K]  sample_26.png
+│   │   ├── [474K]  sample_32.png
+│   │   ├── [408K]  sample_53.png
+│   │   └── [509K]  sample_66.png
+│   ├── [4.0K]  saliency_true_negatives
+│   │   ├── [386K]  sample_0.png
+│   │   ├── [391K]  sample_1.png
+│   │   ├── [467K]  sample_3.png
+│   │   └── [415K]  sample_4.png
+│   ├── [4.0K]  saliency_true_positives
+│   │   ├── [491K]  sample_19.png
+│   │   ├── [493K]  sample_28.png
+│   │   ├── [491K]  sample_38.png
+│   │   └── [455K]  sample_7.png
+│   ├── [ 344]  takeaways.txt
+│   ├── [1.2M]  xai_saliency_minimal_stable_comparison.png
+│   └── [913K]  xai_tsne_comparison.png
+├── [9.2K]  XAI.py
+├── [4.0K]  xai_validation_plots
+│   ├── [1.2M]  xai_case1_abnormal_in_normal.png
+│   ├── [1.4M]  xai_case1_abnormal_in_normal_SALIENCY.png
+│   ├── [1.2M]  xai_case1_abnormal_in_normal_WAVEFORMS.png
+│   ├── [1.4M]  xai_case2_normal_in_abnormal.png
+│   ├── [1.6M]  xai_case2_normal_in_abnormal_SALIENCY.png
+│   ├── [1.4M]  xai_case2_normal_in_abnormal_WAVEFORMS.png
+│   └── [689K]  xai_validation_tsne_map_6color.png
+└── [ 14K]  XNE-Tsme.py
+
+38 directories, 159 files

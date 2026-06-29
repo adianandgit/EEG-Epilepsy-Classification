@@ -1,0 +1,60 @@
+├── __pycache__/
+│   └── utils.cpython-313.pyc
+├── config_files/
+│   ├── __pycache__/
+│   │   └── Epilepsy_Configs.cpython-313.pyc
+│   └── Epilepsy_Configs.py
+│   └── HAR_Configs.py
+│   └── pFD_Configs.py
+│   └── sleepEDF_Configs.py
+├── data/
+│   ├── epilepsy/
+│   │   └── test.pt
+│   │   └── train.pt
+│   │   └── val.pt
+├── data_preprocessing/
+│   ├── epilepsy/
+│   │   ├── data_files/
+│   │   │   └── data.csv
+│   │   └── preprocess.py
+│   ├── fault_diagnosis/
+│   │   └── Data_loading_segmentation.m
+│   │   └── Data_preprocessing.ipynb
+│   ├── sleep-edf/
+│   │   └── dhedfreader.py
+│   │   └── generate_train_val_test.py
+│   │   └── preprocess_sleep_edf.py
+│   ├── uci_har/
+│   │   └── preprocess_har.py
+├── dataloader/
+│   ├── __pycache__/
+│   │   └── augmentations.cpython-313.pyc
+│   │   └── dataloader.cpython-313.pyc
+│   └── augmentations.py
+│   └── dataloader.py
+├── experiments_logs/
+│   ├── Exp1/
+│   │   ├── run1/
+│   │   │   ├── supervised_seed_0/
+│   │   │   │   └── logs_23_08_2025_18_16_37.log
+├── misc/
+│   └── TS_TCC.png
+├── models/
+│   ├── __pycache__/
+│   │   └── TC.cpython-313.pyc
+│   │   └── attention.cpython-313.pyc
+│   │   └── loss.cpython-313.pyc
+│   │   └── model.cpython-313.pyc
+│   └── TC.py
+│   └── attention.py
+│   └── loss.py
+│   └── model.py
+├── trainer/
+│   ├── __pycache__/
+│   │   └── trainer.cpython-313.pyc
+│   └── trainer.py
+└── LICENSE.txt
+└── README.md
+└── main.py
+└── structure.py
+└── utils.py

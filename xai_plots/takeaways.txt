@@ -1,0 +1,5 @@
+get clusters which are close and find their indices so we can see how they can actually see the features and plot visually like abnormal surrounded by normals and vice versa
+
+Can we focus the same focal loss and CSE functions toward precision and recall, class balanced loss (similar to focal loss)
+
+SWD and normal only (remove the polyspikes)

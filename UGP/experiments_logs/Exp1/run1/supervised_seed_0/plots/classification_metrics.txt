@@ -1,0 +1,4 @@
+F1 Score: 0.9714
+Precision: 0.9729
+Recall: 0.9722
+AUROC: 0.9970

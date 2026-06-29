@@ -1,0 +1,221 @@
+=============================================
+Dataset: Epilepsy
+Method:  TS-TCC
+Mode:    supervised
+=============================================
+Data loaded ...
+Training started ....
+
+Epoch 1/40
+Train Loss: 0.1880 | Train Acc: 0.9302
+Valid Loss: 0.6114 | Valid Acc: 0.8555
+F1: 0.6879 | Precision: 0.9230 | Recall: 0.6491 | AUROC: 0.9906
+✅ Best model saved at epoch 1 with acc=0.8555
+
+Epoch 2/40
+Train Loss: 0.1387 | Train Acc: 0.9502
+Valid Loss: 0.2755 | Valid Acc: 0.9213
+F1: 0.8587 | Precision: 0.9530 | Recall: 0.8099 | AUROC: 0.9941
+✅ Best model saved at epoch 2 with acc=0.9213
+
+Epoch 3/40
+Train Loss: 0.1215 | Train Acc: 0.9549
+Valid Loss: 0.2129 | Valid Acc: 0.9386
+F1: 0.8941 | Precision: 0.9625 | Recall: 0.8520 | AUROC: 0.9946
+✅ Best model saved at epoch 3 with acc=0.9386
+
+Epoch 4/40
+Train Loss: 0.1096 | Train Acc: 0.9607
+Valid Loss: 0.1863 | Valid Acc: 0.9436
+F1: 0.9038 | Precision: 0.9653 | Recall: 0.8641 | AUROC: 0.9950
+✅ Best model saved at epoch 4 with acc=0.9436
+
+Epoch 5/40
+Train Loss: 0.0985 | Train Acc: 0.9641
+Valid Loss: 0.2252 | Valid Acc: 0.9431
+F1: 0.9025 | Precision: 0.9666 | Recall: 0.8618 | AUROC: 0.9958
+
+Epoch 6/40
+Train Loss: 0.0928 | Train Acc: 0.9667
+Valid Loss: 0.1501 | Valid Acc: 0.9487
+F1: 0.9133 | Precision: 0.9681 | Recall: 0.8763 | AUROC: 0.9958
+✅ Best model saved at epoch 6 with acc=0.9487
+
+Epoch 7/40
+Train Loss: 0.0825 | Train Acc: 0.9693
+Valid Loss: 0.2400 | Valid Acc: 0.9408
+F1: 0.8982 | Precision: 0.9653 | Recall: 0.8564 | AUROC: 0.9962
+
+Epoch 8/40
+Train Loss: 0.0795 | Train Acc: 0.9704
+Valid Loss: 0.1447 | Valid Acc: 0.9526
+F1: 0.9204 | Precision: 0.9718 | Recall: 0.8848 | AUROC: 0.9964
+✅ Best model saved at epoch 8 with acc=0.9526
+
+Epoch 9/40
+Train Loss: 0.0813 | Train Acc: 0.9720
+Valid Loss: 0.1528 | Valid Acc: 0.9526
+F1: 0.9204 | Precision: 0.9718 | Recall: 0.8848 | AUROC: 0.9965
+
+Epoch 10/40
+Train Loss: 0.0701 | Train Acc: 0.9757
+Valid Loss: 0.1131 | Valid Acc: 0.9626
+F1: 0.9389 | Precision: 0.9749 | Recall: 0.9112 | AUROC: 0.9966
+✅ Best model saved at epoch 10 with acc=0.9626
+
+Epoch 11/40
+Train Loss: 0.0678 | Train Acc: 0.9756
+Valid Loss: 0.0903 | Valid Acc: 0.9699
+F1: 0.9516 | Precision: 0.9768 | Recall: 0.9308 | AUROC: 0.9969
+✅ Best model saved at epoch 11 with acc=0.9699
+
+Epoch 12/40
+Train Loss: 0.0656 | Train Acc: 0.9760
+Valid Loss: 0.1896 | Valid Acc: 0.9503
+F1: 0.9163 | Precision: 0.9706 | Recall: 0.8794 | AUROC: 0.9970
+
+Epoch 13/40
+Train Loss: 0.0646 | Train Acc: 0.9763
+Valid Loss: 0.1622 | Valid Acc: 0.9515
+F1: 0.9183 | Precision: 0.9712 | Recall: 0.8821 | AUROC: 0.9973
+
+Epoch 14/40
+Train Loss: 0.0620 | Train Acc: 0.9779
+Valid Loss: 0.1397 | Valid Acc: 0.9559
+F1: 0.9266 | Precision: 0.9737 | Recall: 0.8930 | AUROC: 0.9973
+
+Epoch 15/40
+Train Loss: 0.0595 | Train Acc: 0.9788
+Valid Loss: 0.1352 | Valid Acc: 0.9554
+F1: 0.9257 | Precision: 0.9720 | Recall: 0.8926 | AUROC: 0.9971
+
+Epoch 16/40
+Train Loss: 0.0559 | Train Acc: 0.9805
+Valid Loss: 0.1816 | Valid Acc: 0.9509
+F1: 0.9173 | Precision: 0.9709 | Recall: 0.8808 | AUROC: 0.9974
+
+Epoch 17/40
+Train Loss: 0.0578 | Train Acc: 0.9788
+Valid Loss: 0.0719 | Valid Acc: 0.9754
+F1: 0.9609 | Precision: 0.9826 | Recall: 0.9424 | AUROC: 0.9975
+✅ Best model saved at epoch 17 with acc=0.9754
+
+Epoch 18/40
+Train Loss: 0.0541 | Train Acc: 0.9809
+Valid Loss: 0.0971 | Valid Acc: 0.9671
+F1: 0.9466 | Precision: 0.9775 | Recall: 0.9221 | AUROC: 0.9977
+
+Epoch 19/40
+Train Loss: 0.0536 | Train Acc: 0.9803
+Valid Loss: 0.0763 | Valid Acc: 0.9727
+F1: 0.9562 | Precision: 0.9809 | Recall: 0.9356 | AUROC: 0.9976
+
+Epoch 20/40
+Train Loss: 0.0503 | Train Acc: 0.9816
+Valid Loss: 0.0733 | Valid Acc: 0.9738
+F1: 0.9581 | Precision: 0.9816 | Recall: 0.9383 | AUROC: 0.9978
+
+Epoch 21/40
+Train Loss: 0.0478 | Train Acc: 0.9836
+Valid Loss: 0.1416 | Valid Acc: 0.9581
+F1: 0.9306 | Precision: 0.9750 | Recall: 0.8984 | AUROC: 0.9977
+
+Epoch 22/40
+Train Loss: 0.0490 | Train Acc: 0.9814
+Valid Loss: 0.1302 | Valid Acc: 0.9593
+F1: 0.9326 | Precision: 0.9756 | Recall: 0.9011 | AUROC: 0.9977
+
+Epoch 23/40
+Train Loss: 0.0463 | Train Acc: 0.9842
+Valid Loss: 0.0932 | Valid Acc: 0.9688
+F1: 0.9495 | Precision: 0.9785 | Recall: 0.9261 | AUROC: 0.9980
+
+Epoch 24/40
+Train Loss: 0.0437 | Train Acc: 0.9846
+Valid Loss: 0.1018 | Valid Acc: 0.9654
+F1: 0.9436 | Precision: 0.9778 | Recall: 0.9170 | AUROC: 0.9981
+
+Epoch 25/40
+Train Loss: 0.0472 | Train Acc: 0.9833
+Valid Loss: 0.1458 | Valid Acc: 0.9554
+F1: 0.9255 | Precision: 0.9734 | Recall: 0.8916 | AUROC: 0.9979
+
+Epoch 26/40
+Train Loss: 0.0427 | Train Acc: 0.9855
+Valid Loss: 0.0753 | Valid Acc: 0.9721
+F1: 0.9552 | Precision: 0.9806 | Recall: 0.9343 | AUROC: 0.9983
+
+Epoch 27/40
+Train Loss: 0.0413 | Train Acc: 0.9853
+Valid Loss: 0.1048 | Valid Acc: 0.9665
+F1: 0.9457 | Precision: 0.9772 | Recall: 0.9207 | AUROC: 0.9979
+
+Epoch 28/40
+Train Loss: 0.0434 | Train Acc: 0.9852
+Valid Loss: 0.0779 | Valid Acc: 0.9743
+F1: 0.9591 | Precision: 0.9807 | Recall: 0.9407 | AUROC: 0.9981
+
+Epoch 29/40
+Train Loss: 0.0374 | Train Acc: 0.9888
+Valid Loss: 0.0901 | Valid Acc: 0.9704
+F1: 0.9524 | Precision: 0.9796 | Recall: 0.9302 | AUROC: 0.9980
+
+Epoch 30/40
+Train Loss: 0.0351 | Train Acc: 0.9890
+Valid Loss: 0.0915 | Valid Acc: 0.9710
+F1: 0.9533 | Precision: 0.9799 | Recall: 0.9315 | AUROC: 0.9981
+
+Epoch 31/40
+Train Loss: 0.0375 | Train Acc: 0.9870
+Valid Loss: 0.0841 | Valid Acc: 0.9721
+F1: 0.9552 | Precision: 0.9806 | Recall: 0.9343 | AUROC: 0.9980
+
+Epoch 32/40
+Train Loss: 0.0370 | Train Acc: 0.9883
+Valid Loss: 0.0944 | Valid Acc: 0.9699
+F1: 0.9514 | Precision: 0.9792 | Recall: 0.9288 | AUROC: 0.9980
+
+Epoch 33/40
+Train Loss: 0.0352 | Train Acc: 0.9879
+Valid Loss: 0.0837 | Valid Acc: 0.9727
+F1: 0.9562 | Precision: 0.9809 | Recall: 0.9356 | AUROC: 0.9980
+
+Epoch 34/40
+Train Loss: 0.0344 | Train Acc: 0.9882
+Valid Loss: 0.0954 | Valid Acc: 0.9682
+F1: 0.9486 | Precision: 0.9782 | Recall: 0.9248 | AUROC: 0.9980
+
+Epoch 35/40
+Train Loss: 0.0358 | Train Acc: 0.9890
+Valid Loss: 0.0785 | Valid Acc: 0.9743
+F1: 0.9590 | Precision: 0.9819 | Recall: 0.9397 | AUROC: 0.9980
+
+Epoch 36/40
+Train Loss: 0.0359 | Train Acc: 0.9888
+Valid Loss: 0.0856 | Valid Acc: 0.9715
+F1: 0.9543 | Precision: 0.9802 | Recall: 0.9329 | AUROC: 0.9980
+
+Epoch 37/40
+Train Loss: 0.0344 | Train Acc: 0.9900
+Valid Loss: 0.0853 | Valid Acc: 0.9710
+F1: 0.9533 | Precision: 0.9799 | Recall: 0.9315 | AUROC: 0.9980
+
+Epoch 38/40
+Train Loss: 0.0336 | Train Acc: 0.9904
+Valid Loss: 0.0796 | Valid Acc: 0.9727
+F1: 0.9562 | Precision: 0.9809 | Recall: 0.9356 | AUROC: 0.9981
+
+Epoch 39/40
+Train Loss: 0.0349 | Train Acc: 0.9903
+Valid Loss: 0.0846 | Valid Acc: 0.9715
+F1: 0.9543 | Precision: 0.9802 | Recall: 0.9329 | AUROC: 0.9980
+
+Epoch 40/40
+Train Loss: 0.0318 | Train Acc: 0.9893
+Valid Loss: 0.0849 | Valid Acc: 0.9721
+F1: 0.9552 | Precision: 0.9806 | Recall: 0.9343 | AUROC: 0.9980
+
+Evaluating on Test set...
+Test Loss: 0.0897 | Test Acc: 0.9721
+
+################## Training Completed Successfully #########################
