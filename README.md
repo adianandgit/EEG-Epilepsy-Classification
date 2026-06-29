@@ -88,7 +88,6 @@ It looks like the formatting got lost when you copied it! Here is the exact Mark
 
 Just copy the code block below and paste it directly into your `README.md` file:
 
-```markdown
 ## ⚙️ Quick Start & Installation
 
 **1. Clone the repository & setup environment:**
@@ -142,6 +141,3 @@ python XNE-Tsme.py
 * **TS-TCC Framework:** Parts of our training pipeline utilize structural groundwork from [Emadeldeen24's TS-TCC](https://github.com/emadeldeen24/TS-TCC).
 * **EEGformer:** Architectural inspiration drawn from *EEGformer: A transformer-based brain activity classification method using EEG signal* (Wan et al., 2023).
 
-```
-
-```
