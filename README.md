@@ -63,7 +63,6 @@ We extracted the gradients of the target class score with respect to the input E
 
 The codebase is modularized to separate data preprocessing, transformer models, and explainable evaluation scripts.
 
-```text
 .
 ├── UGP/                        # Core package (Data, Models, Trainers)
 │   ├── config_files/           # Hyperparameter configs (Epilepsy, HAR, sleepEDF)
@@ -85,27 +84,33 @@ The codebase is modularized to separate data preprocessing, transformer models, 
 └── README.md
 
 
+It looks like the formatting got lost when you copied it! Here is the exact Markdown syntax for that final section.
 
-⚙️ Quick Start & Installation
-1. Clone the repository & setup environment:
+Just copy the code block below and paste it directly into your `README.md` file:
 
-Bash
+```markdown
+## ⚙️ Quick Start & Installation
+
+**1. Clone the repository & setup environment:**
+```bash
 git clone [https://github.com/adianandgit/EEG-Epilepsy-Classification.git](https://github.com/adianandgit/EEG-Epilepsy-Classification.git)
 cd EEG-Epilepsy-Classification
 python -m venv venv
 source venv/bin/activate  # On Linux/Mac
 pip install -r requirements.txt
-2. Download the Datasets:
 
-Note: Due to GitHub file size limits, the massive .pt dataset files are hosted externally.
+```
 
-Download the preprocessed datasets from [Insert Link to Google Drive / Kaggle here].
+**2. Download the Datasets:**
 
-Place them in the dataset_storage/ directory as outlined in the file tree above.
+> **Note:** Due to GitHub file size limits, the massive `.pt` dataset files are hosted externally.
 
-3. Run the Code:
+* Download the preprocessed datasets from [Insert Link to Google Drive / Kaggle here].
+* Place them in the `dataset_storage/` directory as outlined in the file tree above.
 
-Bash
+**3. Run the Code:**
+
+```bash
 # Train the baseline model
 python minimal_baseline_train.py --config UGP/config_files/Epilepsy_Configs.py
 
@@ -118,16 +123,25 @@ python ensemblemodel.py
 # Generate t-SNE and Saliency Maps
 python XAI.py 
 python XNE-Tsme.py 
-🔮 Future Scope
-Cross-Subject Validation: Testing the model's F1 score stability across different patients to guarantee true generalization.
 
-Advanced Data Augmentation: Implementing noise injection, time warping, and amplitude scaling to make the model completely robust to real-world artifacts.
+```
 
-Native Multi-Channel Architecture: Moving away from channel compression to build a native spatial convolution transformer that processes all electrodes simultaneously.
+---
 
-🙏 Credits & Acknowledgments
-Dr. Tushar Sandhan: Project Supervisor.
+## 🔮 Future Scope
 
-TS-TCC Framework: Parts of our training pipeline utilize structural groundwork from Emadeldeen24's TS-TCC.
+* **Cross-Subject Validation:** Testing the model's F1 score stability across different patients to guarantee true generalization.
+* **Advanced Data Augmentation:** Implementing noise injection, time warping, and amplitude scaling to make the model completely robust to real-world artifacts.
+* **Native Multi-Channel Architecture:** Moving away from channel compression to build a native spatial convolution transformer that processes all electrodes simultaneously.
 
-EEGformer: Architectural inspiration drawn from EEGformer: A transformer-based brain activity classification method using EEG signal (Wan et al., 2023).
+---
+
+## 🙏 Credits & Acknowledgments
+
+* **Dr. Tushar Sandhan:** Project Supervisor.
+* **TS-TCC Framework:** Parts of our training pipeline utilize structural groundwork from [Emadeldeen24's TS-TCC](https://github.com/emadeldeen24/TS-TCC).
+* **EEGformer:** Architectural inspiration drawn from *EEGformer: A transformer-based brain activity classification method using EEG signal* (Wan et al., 2023).
+
+```
+
+```
