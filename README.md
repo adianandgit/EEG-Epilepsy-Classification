@@ -41,7 +41,7 @@ In medical AI, trust is just as important as accuracy. We implemented **t-SNE** 
 By mapping the high-dimensional probabilities into a 2D student t-probability space, we visualized the model's latent space. The clusters show clear boundaries between normal and abnormal EEGs, proving the model successfully disentangled the features.
 
 <p align="center">
-  <img src="results/xai_plots/xai_tsne_comparison.png" width="700" alt="t-SNE Clustering showing Normal vs Abnormal EEG">
+  <img src="xai_plots/xai_tsne_comparison.png" width="700" alt="t-SNE Clustering showing Normal vs Abnormal EEG">
 </p>
 
 ### 2. Saliency Maps (Model Focus)
@@ -50,8 +50,8 @@ We extracted the gradients of the target class score with respect to the input E
 * **Blue/Dark regions** indicate less importance or "Normal" predictions.
 
 <p align="center">
-  <img src="results/xai_plots/saliency_true_positives/sample_19.png" width="48%" alt="True Positive Saliency">
-  <img src="results/xai_plots/saliency_true_negatives/sample_0.png" width="48%" alt="True Negative Saliency">
+  <img src="xai_plots/saliency_true_positives/sample_19.png" width="48%" alt="True Positive Saliency">
+  <img src="xai_plots/saliency_true_negatives/sample_0.png" width="48%" alt="True Negative Saliency">
 </p>
 <p align="center">
   <em>Left: True Positive (Model correctly focuses on epileptiform spikes). Right: True Negative (Model correctly identifies baseline rhythmic activity).</em>
